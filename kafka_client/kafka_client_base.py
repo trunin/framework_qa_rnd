@@ -29,7 +29,7 @@ class CreateExpConsumer(KafkaClient):
         def func():
             for msg in self.consume(KafkaTopics.create_experiments):
                 value = msg.value['payload']
-                if name == value['name']:
+                if name == value['hui']:
                     return value
                 else:
                     return None
