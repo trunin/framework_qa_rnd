@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='QA_framework',
+    name='framewor_qa_rnd',
     version="0.0.2",
     author='e.trunin',
     author_email='e.trunin@corp.mail.ru',
     description="qa framework for rnd team",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='http://github.com/QA_framework/QA_framework',
+    url='http://github.com/trunin/framewor_qa_rnd',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
