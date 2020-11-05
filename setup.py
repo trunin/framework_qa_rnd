@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='framewor_qa_rnd',
-    version="0.0.2",
+    version="0.0.3",
     author='e.trunin',
     author_email='e.trunin@corp.mail.ru',
     description="qa framework for rnd team",
