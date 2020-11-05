@@ -2,8 +2,7 @@ from json import loads
 
 from kafka import KafkaConsumer
 
-
-from kafka_clent import KafkaTopics
+from kafka_clent.kafka_topics import KafkaTopics
 from kafka_clent.utils import wait
 
 
